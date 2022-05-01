@@ -1,6 +1,6 @@
 import  torch
 
-def intersction_over_union(boxes_preds, boxes_labels, box_format="midpoint"):
+def intersection_over_union(boxes_preds, boxes_labels, box_format="midpoint"):
     #boxes_preds shape is (N,4) where N is the number of bboxes
     #boxes_labels shape is (N, 4)
     """
